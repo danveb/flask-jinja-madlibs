@@ -1,0 +1,20 @@
+Setup Project 
+
+At the top level of this (inside flask-jinja-madlibs) create virtual environment 
+$ python3 -m venv venv 
+
+Start using venv:
+$ source venv/bin/activate 
+
+Install Flask 
+(venv) $ pip3 install Flask 
+
+Make a "requirements.txt" file in this directory with a list of all software needed for this project 
+(venv) $ pip3 freeze > requirements.txt 
+-> refer later to cat requirements.txt 
+
+Setup Git 
+(venv) $ git init 
+
+Ignore venv/ by adding venv/ inside .gitignore venv/ 
+
